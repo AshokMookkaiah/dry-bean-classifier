@@ -12,5 +12,5 @@ env/
 *.log
 .ipynb_checkpoints/
 .streamlit/secrets.toml
-data/dry_bean_full.csv
-artifacts/confusion_matrices/
+data/
+artifacts/

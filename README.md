@@ -82,25 +82,25 @@ All five models were trained on the **same** Dry Bean dataset and evaluated on t
 
 ## Repository structure
 
+This matches Assignment Step 3. Source code and preprocessing artifacts are included with the required files.
+
 ```text
-dry-bean-classifier/
-├── app.py                      # Streamlit interactive frontend
-├── train_models.py             # Train + evaluate all 5 models
-├── download_dataset.py         # Fetch UCI Dry Bean dataset
-├── Assignment2_Notebook.ipynb  # Notebook for BITS Virtual Lab run / screenshot
-├── requirements.txt
-├── README.md
-├── test_data.csv               # Held-out test CSV used in experiments
-├── model/                      # Saved .joblib models + preprocessing artifacts
-│   ├── logistic_regression.joblib
-│   ├── decision_tree.joblib
-│   ├── knn.joblib
-│   ├── naive_bayes.joblib
-│   ├── support_vector_machine.joblib
-│   ├── label_encoder.joblib
-│   └── feature_columns.joblib
-└── artifacts/
-    └── metrics.json            # Metrics dump used to fill the comparison table
+project-folder/
+│-- app.py
+│-- requirements.txt
+│-- README.md
+│-- test_data.csv
+│-- train_models.py                 # source code
+│-- Assignment2_Notebook.ipynb      # source code
+│-- download_dataset.py             # source code
+│-- model/
+│   │-- logistic_regression.joblib
+│   │-- decision_tree.joblib
+│   │-- knn.joblib
+│   │-- naive_bayes.joblib
+│   │-- support_vector_machine.joblib
+│   │-- label_encoder.joblib        # preprocessing artifact
+│   │-- feature_columns.joblib      # preprocessing artifact
 ```
 
 ## How to run locally
