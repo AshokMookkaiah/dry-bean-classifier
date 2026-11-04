@@ -48,9 +48,9 @@ The end-to-end workflow covers:
 **[Dry Bean Classifier]( https://github.com/AshokMookkaiah/dry-bean-classifier)**  
 
 
-Live Streamlit app (after deployment):
+## Live Streamlit app (after deployment):
 
-**Replace this line with your Streamlit Community Cloud URL.**  
+**https://dry-bean-classifier-p5zif8p5tyzj28ya3afdwi.streamlit.app/**  
 
 
 ## d. Models used
