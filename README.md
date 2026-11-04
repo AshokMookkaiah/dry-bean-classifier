@@ -45,13 +45,13 @@ The end-to-end workflow covers:
 
 ## c. Github Repository Link
 
-> **Replace this line with your public GitHub repository URL after you push the code.**  
-> Example format: `https://github.com/<your-username>/dry-bean-classifier`
+**[Dry Bean Classifier]( https://github.com/AshokMookkaiah/dry-bean-classifier)**  
+
 
 Live Streamlit app (after deployment):
 
-> **Replace this line with your Streamlit Community Cloud URL.**  
-> Example format: `https://<your-app-name>.streamlit.app`
+**Replace this line with your Streamlit Community Cloud URL.**  
+
 
 ## d. Models used
 
